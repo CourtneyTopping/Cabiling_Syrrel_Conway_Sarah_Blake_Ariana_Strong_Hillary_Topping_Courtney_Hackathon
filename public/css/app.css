@@ -1,6 +1,79 @@
+#mainHeader {
+  background-color: #174793;
+  margin-bottom: -8px;
+}
+
+#logo {
+  text-align: center;
+}
+
+#mainNav {
+  list-style-type: none;
+  text-align: right;
+  float: left;
+  padding: 1%;
+}
+
+#mainNav li {
+  border-bottom: none;
+  display: inline;
+  padding: 20px;
+  font-size: 1em;
+}
+
+#mainNav li a {
+  padding: 5px 0 5px 0;
+  color: #fff;
+  font-family: "Sintony", sans-serif;
+}
+
+#mainNav li a:hover {
+  color: #f1a300;
+}
+
+@media screen and (min-width: 90em) {
+  #logo {
+    text-align: left;
+  }
+}
+#promoSection {
+  background: linear-gradient(#174793, rgba(23, 71, 147, 0)), url(../images/promoImg.jpg) no-repeat fixed;
+  background-size: 100%;
+  text-align: center;
+  color: #fff;
+}
+
+#promoText {
+  padding: 10%;
+}
+
+@media screen and (min-width: 48em) {
+  #promoSection {
+    height: 93vh;
+  }
+}
 body {
-  color: blue;
-  background-color: white;
+  color: #3e3f3f;
+  background-color: #fff;
+}
+
+h1, h2, h3 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+p {
+  font-family: "Sintony", sans-serif;
+}
+
+@media screen and (min-width: 48em) {
+  h2 {
+    font-size: 3em;
+  }
 }
 
 /*# sourceMappingURL=app.css.map */

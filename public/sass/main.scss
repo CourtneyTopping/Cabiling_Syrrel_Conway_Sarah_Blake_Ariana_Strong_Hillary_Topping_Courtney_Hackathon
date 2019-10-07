@@ -1,6 +1,31 @@
 @import "_vars";
+@import "modules/_header";
+@import "modules/_promo";
 
 body {
     color: $main-color;
     background-color: $body-bg;
+}
+
+h1, h2, h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+p {
+    font-family: 'Sintony', sans-serif;
+}
+
+@media screen and (min-width: 48em) /*Tablet Size*/ {
+    h2 {
+        font-size: 3em;
+    }
+}
+
+@media screen and (min-width: 90em) /*Large Laptop Size*/ {
+    
 }

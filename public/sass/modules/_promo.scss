@@ -1,0 +1,22 @@
+#promoSection {
+    background: linear-gradient(rgba(23, 71, 147, 1), rgba(23, 71, 147, 0)),
+                url(../images/promoImg.jpg) no-repeat fixed;
+    background-size: 100%;
+    text-align: center;
+    color: #fff;
+}
+
+#promoText {
+    padding: 10%;
+}
+
+@media screen and (min-width: 48em) /*Tablet Size*/ {
+    #promoSection {
+        height: 93vh;
+    }
+}
+
+@media screen and (min-width: 90em) /*Large Laptop Size*/ {
+    
+}
+
