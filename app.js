@@ -31,11 +31,6 @@ app.get('/', (req, res) => {
   //this builds localhost:3000/views/index.html
 })
 
-app.get('/contact', (req, res) => {
-  console.log('at the contact route')
-  //res.sendFile(path.join(__dirname + '/views/contact.html'));
-  res.render('contact', {message: "what is your name?"});
-})
 
 app.get('/users' , (req, res) => {
   //try to get data from the database
