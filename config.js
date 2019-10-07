@@ -3,7 +3,7 @@ const config = {
     upass: '',
     port: 3306,
     host: 'localhost',
-    db: 'bizcard'
+    db: 'db_thermosecure'
 }
 
 //make this a public file our app can read
