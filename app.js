@@ -27,12 +27,12 @@ app.get('/', (req, res) => {
   console.log('at the home route')
   //res.sendFile(path.join(__dirname + '/views/index.html'));
 
-  res.render('layout', {message: "hi there!", anothermessage: "this is easy!"});
+  res.render('home', {message: "hi there!", anothermessage: "this is easy!"});
   //this builds localhost:3000/views/index.html
 })
 
 
-app.get('layout' , (req, res) => {
+app.get('/' , (req, res) => {
   //try to get data from the database
   sql.getConnection((err, connection) => {
     //handle errors first
