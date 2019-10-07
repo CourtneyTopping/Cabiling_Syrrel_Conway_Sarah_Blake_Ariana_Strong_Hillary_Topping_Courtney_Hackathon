@@ -27,12 +27,12 @@ app.get('/', (req, res) => {
   console.log('at the home route')
   //res.sendFile(path.join(__dirname + '/views/index.html'));
 
-  res.render('home', {message: "hi there!", anothermessage: "this is easy!"});
+  res.render('layout', {message: "hi there!", anothermessage: "this is easy!"});
   //this builds localhost:3000/views/index.html
 })
 
 
-app.get('/users' , (req, res) => {
+app.get('layout' , (req, res) => {
   //try to get data from the database
   sql.getConnection((err, connection) => {
     //handle errors first
@@ -42,7 +42,7 @@ app.get('/users' , (req, res) => {
     }
 
     //it works, go and get the data
-    let query = `SELECT * FROM tbl_card`;
+    let query = `SELECT * FROM tbl_promo`;
 
     sql.query(query, (err, rows) => {
       //release the connection because we're done with it
@@ -52,7 +52,7 @@ app.get('/users' , (req, res) => {
 
       console.log(rows);
 
-      res.render('user', rows[0])
+      res.render('layout', rows[0])
     })
   })
 })
