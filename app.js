@@ -63,7 +63,7 @@ app.get('/users' , (req, res) => {
 })
 
 app.listen(port, () => {
-  console.log(`Server running at $(port)`);   
+  console.log(`Server running at ${port}`);   
 });
 
 //anything in here is editable

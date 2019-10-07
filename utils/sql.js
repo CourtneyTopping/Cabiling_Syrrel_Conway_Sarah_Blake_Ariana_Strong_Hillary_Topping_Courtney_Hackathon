@@ -8,6 +8,7 @@ var connect  = mysql.createPool({
     host            : config.host,
     user            : config.uname,
     password        : config.upass,
+    port            : config.port,
     database        : config.db
   });
 

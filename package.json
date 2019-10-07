@@ -1,10 +1,10 @@
 {
-  "name": "Blake_A_Cabiling_S_Conway_S_Strong_H_Topping_C_Hackathon",
+  "name": "blake_a_cabiling_s_conway_s_strong_h_topping_c_hackathon",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app"
   },
   "repository": {
     "type": "git",
@@ -22,6 +22,8 @@
     "gulp-sass": "^4.0.2"
   },
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "hbs": "^4.0.5",
+    "mysql": "^2.17.1"
   }
 }
