@@ -33,9 +33,23 @@
 	color: $yellow-color;
 }
 
+@media screen and (min-width: 48em) /*Tablet Size*/ {
+    #logoImg {
+        width: 30%;
+    }
+}
+
+@media screen and (min-width: 64em) /*Laptop Small Size*/ {
+    #logo {
+        width: 25%;
+    }
+}
+
+
 @media screen and (min-width: 90em) /*Large Laptop Size*/ {
     #logo {
         text-align: left;
         width: 20%;
+        padding-left: 5%;
     }
 }

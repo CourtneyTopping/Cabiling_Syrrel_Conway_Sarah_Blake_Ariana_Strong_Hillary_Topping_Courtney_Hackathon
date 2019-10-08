@@ -22,14 +22,14 @@ app.set('view engine', 'hbs');
 app.set('views', __dirname + '/views');
 
 
-//a forward slash is the home route (same as index.html)
-app.get('/', (req, res) => {
-  console.log('at the home route')
-  //res.sendFile(path.join(__dirname + '/views/index.html'));
+// //a forward slash is the home route (same as index.html)
+// app.get('/', (req, res) => {
+//   console.log('at the home route')
+//   //res.sendFile(path.join(__dirname + '/views/index.html'));
 
-  res.render('home', {message: "hi there!", anothermessage: "this is easy!"});
-  //this builds localhost:3000/views/index.html
-})
+//   res.render('home', {message: "hi there!", anothermessage: "this is easy!"});
+//   //this builds localhost:3000/views/index.html
+// })
 
 
 app.get('/' , (req, res) => {
@@ -52,7 +52,7 @@ app.get('/' , (req, res) => {
 
       console.log(rows);
 
-      res.render('layout', rows[0])
+      res.render('home', rows[0])
     })
   })
 })
@@ -60,6 +60,3 @@ app.get('/' , (req, res) => {
 app.listen(port, () => {
   console.log(`Server running at ${port}`);   
 });
-
-//anything in here is editable
-//simple web server set up 

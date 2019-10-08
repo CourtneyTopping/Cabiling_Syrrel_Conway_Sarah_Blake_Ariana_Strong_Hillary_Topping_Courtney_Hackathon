@@ -5,10 +5,36 @@
     color: #fff;
 }
 
-#reviewImgList {
+#reviewImg ul {
+    list-style-type: none;
     
+}
+
+#reviewImg ul li {
+    display: inline;
 }
 
 #reviewImgList a {
     display: inline;
+}
+
+.reviewImg {
+    width: 15%;
+    padding: 1%;
+}
+
+#reviewImgSelect {
+    width: 20%;
+}
+
+@media screen and (min-width: 48em) /*Tablet Size*/ {
+    #reviewSection {
+        padding: 15%;
+    }
+}
+
+@media screen and (min-width: 64em) /*Laptop Small Size*/ {
+    #reviewImg {
+        
+    }
 }
