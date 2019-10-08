@@ -34,6 +34,7 @@ $ cd Blake_A_Cabiling_S_Conway_S_Strong_H_Topping_C_Hackathon
 ```
 ## Acknowledgements
 * Icons for feature section and social media (https://www.flaticon.com/home)
+* Trevor Van Rys avatar (https://rocketreach.co/trevor-van-rys-email_65424079)
 * Fonts (https://fonts.google.com)
 * Images (https://www.pexels.com)
 * Video music (https://www.bensound.com/royalty-free-music/track/inspire)
