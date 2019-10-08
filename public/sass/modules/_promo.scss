@@ -1,9 +1,9 @@
 #promoSection {
-    background: linear-gradient(rgba(23, 71, 147, 1), rgba(23, 71, 147, 0)),
+    background: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 0)),
                 url(../images/promoImg.jpg) no-repeat fixed;
     background-size: 100%;
     text-align: center;
-    color: #fff;
+    color: $blue-color;
 }
 
 #promoText {

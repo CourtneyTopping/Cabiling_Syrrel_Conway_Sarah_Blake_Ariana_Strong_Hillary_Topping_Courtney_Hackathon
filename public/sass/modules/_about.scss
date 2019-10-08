@@ -1,4 +1,10 @@
 #aboutSection {
-    background-color: blue;
-   height: 50px;
+    text-align: center;
+    padding: 10%;
+}
+
+#aboutBtn {
+    background-color: $yellow-color;
+    padding: 5%;
+    border-radius: 10%;
 }
