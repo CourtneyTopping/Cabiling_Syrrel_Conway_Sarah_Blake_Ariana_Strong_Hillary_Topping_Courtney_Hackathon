@@ -52,6 +52,10 @@
     height: 93vh;
   }
 }
+#aboutSection {
+  background-color: blue;
+}
+
 body {
   color: #3e3f3f;
   background-color: #fff;

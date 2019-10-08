@@ -36,15 +36,13 @@ it is just html with curly braces around the things you want to be dynamic-->
           </ul>
         </nav>
       </div>
-      <h1>{{Tagline}}</h1>
     </header>
       
     <!--PROMO SECTION-->   
     <section class="grid-container full" id="promoSection">
       <div class="grid-x">
         <div class="cell small 12">
-          <h2>Comfort at Your Convenience</h2>
-          <h1>{{ message }}</h1>
+          <h2>{{Tagline}}</h2>
         </div> 
     </section>
 
@@ -52,8 +50,8 @@ it is just html with curly braces around the things you want to be dynamic-->
     <section class="grid-container full" id="aboutSection">
       <div class="grid-x">
         <div class="cell small-12 medium-6" id="aboutText">
-          <h2>About Us</h2>
-          <p>Text here</p>
+          <h2>{{About_title}}</h2>
+          <p>{{About_description}}</p>
         </div>
         <div class="cell small-12 medium-6" id="aboutImg">
           <img src="" alt="3D Product Image">
@@ -86,8 +84,8 @@ it is just html with curly braces around the things you want to be dynamic-->
         </div>
         <div class="cell small-12 large-4 feature">
           <img src="" class="featureIcon">
-          <h3>TITLE</h3>
-          <p>We create concepts, develop mockups and create print-ready files for your product.</p>
+          <h3>{{Feature_title}}</h3>
+          <p>{{Feature_description}}</p>
         </div>
         <div class="cell small-12 large-4 feature">
           <img src="" class="featureIcon">
