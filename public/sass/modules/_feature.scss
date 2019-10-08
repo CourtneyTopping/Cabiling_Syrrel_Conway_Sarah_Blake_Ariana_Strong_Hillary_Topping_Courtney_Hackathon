@@ -10,5 +10,31 @@
 
 .featureIcon {
     width: 30%;
+    padding: 2%;
+}
+
+@media screen and (min-width: 48em) /*Tablet Size*/ {
+    #featureSection {
+       padding: 15%;
+    }
+}
+
+@media screen and (min-width: 64em) /*Laptop Small Size*/ {
+    #featureSection {
+        text-align: left;
+        padding: 10%;
+    }
+
+    #featureTitle {
+        padding: 3%;
+    }
+
+    .feature {
+        padding: 4%;
+    }
+
+    .featureIcon {
+        width: 35%;
+    }
 }
 

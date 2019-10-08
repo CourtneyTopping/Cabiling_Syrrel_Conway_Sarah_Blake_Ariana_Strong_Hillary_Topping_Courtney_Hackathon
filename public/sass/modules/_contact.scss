@@ -3,3 +3,15 @@
     text-align: center;
     padding: 10%;
 }
+
+@media screen and (min-width: 48em) /*Tablet Size*/ {
+    #contactSection form textarea {
+        margin-bottom: 10%;
+    }
+}
+
+@media screen and (min-width: 64em) /*Laptop Small Size*/ {
+    #contactSection {
+        padding: 15%;
+    }
+}
