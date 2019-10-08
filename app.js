@@ -42,9 +42,9 @@ app.get('/' , (req, res) => {
     }
 
     //it works, go and get the data
-    let query = `SELECT * FROM tbl_promo`;
+    let queryPromo = `SELECT * FROM tbl_promo`;
 
-    sql.query(query, (err, rows) => {
+    sql.query(queryPromo, (err, rows) => {
       //release the connection because we're done with it
       connection.release();
 
