@@ -5,6 +5,8 @@
 @import "modules/_video";
 @import "modules/_feature";
 @import "modules/_review";
+@import "modules/_footer";
+@import "modules/_contact";
 
 body {
     color: $main-color;
@@ -22,6 +24,13 @@ h2 {
 
 p {
     font-family: 'Sintony', sans-serif;
+}
+
+.siteBtn {
+    background-color: $yellow-color;
+    padding: 3%;
+    border-radius: 10%;
+    cursor: pointer;
 }
 
 @media screen and (min-width: 48em) /*Tablet Size*/ {

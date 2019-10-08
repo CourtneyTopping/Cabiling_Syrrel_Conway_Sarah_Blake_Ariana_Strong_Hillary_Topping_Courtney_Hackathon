@@ -60,16 +60,27 @@
   padding: 10%;
 }
 
-#aboutBtn {
-  background-color: #f1a300;
-  padding: 5%;
-  border-radius: 10%;
+.controls {
+  padding: 10px;
+  background-color: #174793;
+  text-align: center;
+}
+
+.controls img {
+  width: 5%;
+  cursor: pointer;
+  margin-right: 1%;
+  margin-left: 1%;
 }
 
 #featureSection {
   background-color: #f7f7f7;
   text-align: center;
   padding: 10%;
+}
+
+.feature {
+  padding: 5%;
 }
 
 .featureIcon {
@@ -85,6 +96,32 @@
 
 #reviewImgList a {
   display: inline;
+}
+
+#mainFooter {
+  background-color: #174793;
+  color: #fff;
+  text-align: center;
+  padding: 5%;
+}
+
+#socialMedia {
+  padding-bottom: 5%;
+}
+
+#socialMedia a {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+#socialMedia img {
+  width: 10%;
+}
+
+#contactSection {
+  background-color: #f7f7f7;
+  text-align: center;
+  padding: 10%;
 }
 
 body {
@@ -103,6 +140,13 @@ h2 {
 
 p {
   font-family: "Sintony", sans-serif;
+}
+
+.siteBtn {
+  background-color: #f1a300;
+  padding: 3%;
+  border-radius: 10%;
+  cursor: pointer;
 }
 
 @media screen and (min-width: 48em) {
