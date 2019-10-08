@@ -1,17 +1,19 @@
 #mainHeader {
-  background-color: #174793;
+  background-color: #fff;
   margin-bottom: -8px;
 }
 
 #logo {
   text-align: center;
+  width: 40%;
+  padding: 1%;
 }
 
 #mainNav {
   list-style-type: none;
   text-align: right;
   float: left;
-  padding: 1%;
+  padding: 3% 1% 1% 1%;
 }
 
 #mainNav li {
@@ -23,7 +25,7 @@
 
 #mainNav li a {
   padding: 5px 0 5px 0;
-  color: #fff;
+  color: #174793;
   font-family: "Sintony", sans-serif;
 }
 
@@ -34,13 +36,14 @@
 @media screen and (min-width: 90em) {
   #logo {
     text-align: left;
+    width: 20%;
   }
 }
 #promoSection {
-  background: linear-gradient(#174793, rgba(23, 71, 147, 0)), url(../images/promoImg.jpg) no-repeat fixed;
+  background: linear-gradient(white, rgba(255, 255, 255, 0)), url(../images/promoImg.jpg) no-repeat fixed;
   background-size: 100%;
   text-align: center;
-  color: #fff;
+  color: #174793;
 }
 
 #promoText {
@@ -52,6 +55,38 @@
     height: 93vh;
   }
 }
+#aboutSection {
+  text-align: center;
+  padding: 10%;
+}
+
+#aboutBtn {
+  background-color: #f1a300;
+  padding: 5%;
+  border-radius: 10%;
+}
+
+#featureSection {
+  background-color: #f7f7f7;
+  text-align: center;
+  padding: 10%;
+}
+
+.featureIcon {
+  width: 30%;
+}
+
+#reviewSection {
+  background-color: #174793;
+  text-align: center;
+  padding: 10%;
+  color: #fff;
+}
+
+#reviewImgList a {
+  display: inline;
+}
+
 body {
   color: #3e3f3f;
   background-color: #fff;
